@@ -6,10 +6,14 @@ COMPATIBLE_MACHINE = "t3-gem-o1"
 
 PV = "2025.04"
 
-UBOOT_GIT_URI = "git://github.com/t3gemstone/u-boot.git"
+# GECICI - fork'tan. t3gemstone/u-boot'a merge olunca bu blogu
+# asagidaki orijinaline dondur:
+#   UBOOT_GIT_URI = "git://github.com/t3gemstone/u-boot.git"
+#   SRCREV = "<merge sonrasi org commit'i>"
+UBOOT_GIT_URI = "git://github.com/mehmetakiferdem/u-boot.git"
 UBOOT_GIT_PROTOCOL = "https"
 BRANCH = "v2025.04-rc3-t3-gem-o1"
-SRCREV = "b8410d78120ed91156f3ec7ede81bed004f8b46e"
+SRCREV = "a8b5cb4173d16278e06d8d8cb90dde6853004781"
 
 FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
 
