@@ -20,8 +20,8 @@ KERNEL_EXTRA_ARGS += "LOADADDR=${UBOOT_ENTRYPOINT} ${EXTRA_DTC_ARGS}"
 S = "${WORKDIR}/git"
 
 # 6.12.24 version for 64-bit
-SRCREV:aarch64 = "6267aeaee46f09c9550cf135c6041970c973d7c0"
+SRCREV:aarch64 = "72c292fee9b176a9d560124350895eab86304d7d"
 PV:aarch64 = "6.12.24+git"
 BRANCH:aarch64 = "v6.12.24-ti-arm64-r43-t3-gem-o1"
 
-KERNEL_GIT_URI = "git://github.com/t3gemstone/linux.git"
+KERNEL_GIT_URI = "git://github.com/mehmetakiferdem/linux.git"

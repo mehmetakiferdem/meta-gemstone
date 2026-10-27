@@ -13,7 +13,7 @@ PV = "2025.04"
 UBOOT_GIT_URI = "git://github.com/mehmetakiferdem/u-boot.git"
 UBOOT_GIT_PROTOCOL = "https"
 BRANCH = "v2025.04-rc3-t3-gem-o1"
-SRCREV = "9813296c71a6b64645124e8d963e56b72cd4c79b"
+SRCREV = "44b1f64c69797493d23d0f2458fd2ea5f6ef0537"
 
 FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
 
