@@ -12,8 +12,8 @@ PV = "2025.04"
 #   SRCREV = "<merge sonrasi org commit'i>"
 UBOOT_GIT_URI = "git://github.com/mehmetakiferdem/u-boot.git"
 UBOOT_GIT_PROTOCOL = "https"
-BRANCH = "v2025.04-rc3-t3-gem-o1"
-SRCREV = "44b1f64c69797493d23d0f2458fd2ea5f6ef0537"
+BRANCH = "t3-gem-o1-test"
+SRCREV = "c4ba1f17b72bdddee428d23d6f9f37405f30a42c"
 
 FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
 
